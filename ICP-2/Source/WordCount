@@ -35,7 +35,7 @@ Text, IntWritable>
 context) throws IOException, InterruptedException
                 {
                         int sum = 0;
-                        if(key !=null && key.toString().toLowerCase(). startsWith("a")){
+                        
                         for (IntWritable val : values) {
                                 sum += val.get();
                                 }
@@ -43,7 +43,7 @@ context) throws IOException, InterruptedException
                         context.write(key, result);
                         }
                 }
-        }
+        
         public static void main(String[] args) throws Exception {
                 Configuration conf = new Configuration();
                 Job job = Job.getInstance(conf, "word count");
