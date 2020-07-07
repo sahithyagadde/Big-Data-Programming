@@ -1,0 +1,4 @@
+cars,toyota,silver
+cars,toyota,white
+cars,volkswagen,blue
+cars,volkswagen,black
